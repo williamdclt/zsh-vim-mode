@@ -18,6 +18,12 @@ bindkey '^?' backward-delete-char
 bindkey '^h' backward-delete-char
 bindkey '^w' backward-kill-word
 
+bindkey "^[[A" history-beginning-search-backward
+bindkey "^[[B" history-beginning-search-forward
+bindkey -M vicmd "k" history-substring-search-up
+bindkey -M vicmd "j" history-substring-search-down
+bindkey "^p" history-substring-search-up
+
 # if mode indicator wasn't setup by theme, define default
 if [[ "$N_MODE" == "" ]]; then
   N_MODE="%{$fg[yellow]%}[-- NORMAL --]%{$reset_color%}"
