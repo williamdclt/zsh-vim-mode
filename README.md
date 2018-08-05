@@ -1,3 +1,5 @@
+Fork of [https://github.com/houjunchen/zsh-vim-mode](https://github.com/houjunchen/zsh-vim-mode)
+
 # zsh-vim-mode
 Modified from original zsh's [vi mode](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/vi-mode) with [history-substring-search](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/history-substring-search) compatibility.
 

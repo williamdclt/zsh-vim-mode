@@ -20,11 +20,11 @@ bindkey '^w' backward-kill-word
 
 # if mode indicator wasn't setup by theme, define default
 if [[ "$N_MODE" == "" ]]; then
-  N_MODE="%{$fg[red]%}[N]%{$reset_color%}"
+  N_MODE="%{$fg[yellow]%}[-- NORMAL --]%{$reset_color%}"
 fi
 
 if [[ "$I_MODE" == "" ]]; then
-  I_MODE="%{$fg[white]%}[I]%{$reset_color%}"
+  I_MODE="%{$fg[white]%}%{$reset_color%}"
 fi
 
 function vi_mode_prompt_info() {
